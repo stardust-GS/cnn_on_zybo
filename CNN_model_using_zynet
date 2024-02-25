@@ -18,4 +18,4 @@ def genMnistZynet(dataWidth,sigmoidSize,weightIntSize,inputIntSize):
     #zynet.makeSystem('PROJECT','myBlock')
     
 if __name__ == "__main__":
-    genMnistZynet(dataWidth=16,sigmoidSize=5,weightIntSize=4,inputIntSize=1)
+    genMnistZynet(dataWidth=8,sigmoidSize=5,weightIntSize=4,inputIntSize=1)
